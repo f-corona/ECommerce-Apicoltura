@@ -7,7 +7,7 @@ int quantitaCarrello = (carrello != null) ? carrello.getQuantitaTotale() : 0;
 
 <header class="navbar">
   <div class="container">
-    <a href="index.jsp" class="nav-brand">Apicoltura Corona</a>
+    <a href="index.jsp" class="nav-brand">Apicoltura Unisa</a>
     <nav>
       <a href="index.jsp">Home</a>
       <a href="catalogo.jsp">Catalogo</a>

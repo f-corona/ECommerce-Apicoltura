@@ -9,12 +9,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catalogo - Apicoltura Corona</title>
+<title>Catalogo - Apicoltura Unisa</title>
 <link rel="stylesheet" href="styles/global.css">
 <link rel="stylesheet" href="styles/navbar.css">
 <link rel="stylesheet" href="styles/catalogo.css">
 <link rel="stylesheet" href="styles/footer.css">
-<link rel="icon" href="images/apicolturaCoronaLogo.png" type="image/png">
+<link rel="icon" href="images/image.png" type="image/png">
 <script type="text/javascript" src="scripts/carrello-ajax.js"></script>
 </head>
 

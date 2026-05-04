@@ -30,12 +30,12 @@ if (error != null) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Apicoltura Corona</title>
+    <title>Login - Apicoltura Unisa</title>
     <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/auth.css">
     <link rel="stylesheet" href="styles/footer.css">
-    <link rel="icon" href="images/apicolturaCoronaLogo.png" type="image/png">
+    <link rel="icon" href="images/image.png" type="image/png">
     <script src="scripts/validazione-login.js"></script>
 </head>
 <body>

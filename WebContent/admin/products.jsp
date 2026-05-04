@@ -26,7 +26,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Gestione Prodotti - Apicoltura Corona</title>
+<title>Gestione Prodotti - Apicoltura Unisa</title>
 <link rel="stylesheet" href="../styles/global.css">
 <link rel="stylesheet" href="../styles/admin.css">
 <link rel="stylesheet" href="../styles/footer.css">

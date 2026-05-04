@@ -92,13 +92,13 @@ CREATE TABLE IF NOT EXISTS `prodotto` (
 
 -- Dump dei dati della tabella apicoltura_db.prodotto: ~7 rows (circa)
 REPLACE INTO `prodotto` (`ID_Prodotto`, `Nome`, `Descrizione`, `Prezzo`, `IVA`, `QuantitaDisponibile`, `Cancellato`, `ImmagineURL`, `ID_Categoria`) VALUES
-	(1, 'Miele Millefiori di Primavera 250g', 'Ottimo miele', 3.50, 10.00, 199, 0, 'images/products/miele_primavera_250.jpg', 1),
-	(2, 'Miele Millefiori di Primavera 500g', 'Miele', 5.50, 10.00, 197, 0, 'images/products/miele_primavera_500.jpg', 1),
-	(3, 'Miele Millefiori di Primavera 1000g', 'Miele', 10.50, 10.00, 196, 0, 'images/products/miele_primavera_1000.jpg', 1),
-	(4, 'Miele Millefiori di Estate 250g', 'Miele', 3.50, 10.00, 199, 0, 'images/products/miele_estate_250.jpg', 1),
-	(5, 'Miele Millefiori di Estate 500g', 'Miele', 5.50, 10.00, 200, 0, 'images/products/miele_estate_500.jpg', 1),
-	(6, 'Miele Millefiori di Estate 1000g', 'Miele', 10.50, 10.00, 200, 0, 'images/products/miele_estate_1000.jpg', 1),
-	(7, 'Affumicatore in acciaio', 'Classico affumicatore ma con struttura e fornace in acciaio e gabbia di protezione.\r\n', 9.00, 22.00, 29, 0, 'images/products/affumicatore.png', 2);
+	(1, 'Miele Millefiori di Primavera 250g', 'Ottimo miele', 3.50, 10.00, 199, 0, 'images/products/image.png', 1),
+	(2, 'Miele Millefiori di Primavera 500g', 'Miele', 5.50, 10.00, 197, 0, 'images/products/image.png', 1),
+	(3, 'Miele Millefiori di Primavera 1000g', 'Miele', 10.50, 10.00, 196, 0, 'images/products/image.png', 1),
+	(4, 'Miele Millefiori di Estate 250g', 'Miele', 3.50, 10.00, 199, 0, 'images/products/image.png', 1),
+	(5, 'Miele Millefiori di Estate 500g', 'Miele', 5.50, 10.00, 200, 0, 'images/products/image.png', 1),
+	(6, 'Miele Millefiori di Estate 1000g', 'Miele', 10.50, 10.00, 200, 0, 'images/products/image.png', 1),
+	(7, 'Affumicatore in acciaio', 'Classico affumicatore ma con struttura e fornace in acciaio e gabbia di protezione.\r\n', 9.00, 22.00, 29, 0, 'images/products/image.png', 2);
 
 -- Dump della struttura di tabella apicoltura_db.utente
 CREATE TABLE IF NOT EXISTS `utente` (
@@ -119,9 +119,9 @@ CREATE TABLE IF NOT EXISTS `utente` (
 
 -- Dump dei dati della tabella apicoltura_db.utente: ~3 rows (circa)
 REPLACE INTO `utente` (`ID_Utente`, `Email`, `Password`, `Nome`, `Cognome`, `Telefono`, `IndirizzoSpedizione`, `CittaSpedizione`, `CAPSpedizione`, `ProvinciaSpedizione`, `IsAdmin`) VALUES
-	(1, 'admin@apicolturacorona.it', '89a174917c5bedc27e1b44f0cd53e1764017583ee24b82617a1ad113f7e98a3f8581ed4403eb2acf0995b47de2a1d31d06e7e2ccdf6f051472358ae8d0747ec9', 'Francesco', 'Corona', '', 'Via della Laurea', 'Fisciano', '00000', 'SA', 1),
-	(2, 'david@parenzo.it', 'f6611c6a99d125329f1c07142ea79750d7b7fcb95e3d1e6d55dbd57aaa3651224ffc0f04322d0183f0c61acbbb4a7e3701ee39c1e763ad9aa15e408f3c867813', 'David1', 'Parenzo', '', 'Via della Zanzara', 'Valva', '84020', 'SA', 0),
-	(3, 'franco@unisa.it', 'fde0bf645471669a4d2bf54f94c527f0e8a35b9cbf9e0ac92f3632eeb9200db7dd56d4466f4881666824285ab105145bb2dba6fecd612a08029095ade18e20b3', 'Franco', 'Unisa', '', 'Via dei CFU', 'Valva', '84020', 'SA', 0);
+	(1, 'admin@apicolturaunisa.it', '89a174917c5bedc27e1b44f0cd53e1764017583ee24b82617a1ad113f7e98a3f8581ed4403eb2acf0995b47de2a1d31d06e7e2ccdf6f051472358ae8d0747ec9', 'Francesco', 'Unisa', '', 'Via della Laurea', 'Fisciano', '84084', 'SA', 1),
+	(2, 'david@parenzo.it', 'f6611c6a99d125329f1c07142ea79750d7b7fcb95e3d1e6d55dbd57aaa3651224ffc0f04322d0183f0c61acbbb4a7e3701ee39c1e763ad9aa15e408f3c867813', 'David1', 'Parenzo', '', 'Via della Zanzara', 'Fisciano', '84084', 'SA', 0),
+	(3, 'franco@unisa.it', 'fde0bf645471669a4d2bf54f94c527f0e8a35b9cbf9e0ac92f3632eeb9200db7dd56d4466f4881666824285ab105145bb2dba6fecd612a08029095ade18e20b3', 'Franco', 'Unisa', '', 'Via dei CFU', 'Fisciano', '84084', 'SA', 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;

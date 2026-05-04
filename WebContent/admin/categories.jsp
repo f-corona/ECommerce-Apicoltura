@@ -11,11 +11,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Gestione Categorie - Apicoltura Corona</title>
+<title>Gestione Categorie - Apicoltura Unisa</title>
 <link rel="stylesheet" href="../styles/global.css">
 <link rel="stylesheet" href="../styles/admin.css">
 <link rel="stylesheet" href="../styles/footer.css">
-<link rel="icon" href="../images/apicolturaCoronaLogo.png" type="image/png">
+<link rel="icon" href="../images/image.png" type="image/png">
 </head>
 <body>
 
