@@ -1,1 +1,6 @@
 /build/
+
+# File riservati: solo in locale
+.env
+.env.*
+!.env.example
